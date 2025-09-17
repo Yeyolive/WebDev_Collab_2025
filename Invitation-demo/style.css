@@ -1,26 +1,37 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Fira Code", monospace;
   text-align: center;
-  margin-top: 50px;
-  background: linear-gradient(120deg, #f9f9f9, #e0f7fa);
-  color: #333;
+  background: #0d1117;
+  color: #e6edf3;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
-h1 {
-  color: #007acc;
+.container {
+  background: #161b22;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.highlight {
+  color: #58a6ff;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin-top: 20px;
-  background-color: #007acc;
+  background: #238636;
+  color: #fff;
   border: none;
-  border-radius: 5px;
-  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background-color: #005f99;
+  background: #2ea043;
 }
