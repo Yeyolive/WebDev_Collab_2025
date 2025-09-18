@@ -1,0 +1,12 @@
+.fancy-title {
+  text-align: center; /* Centers the text */
+  font-size: 2rem; /* Bigger text */
+  font-weight: bold; /* Bold */
+  letter-spacing: 3px; /* Space out the letters */
+  color: #b22222; /* Dark red (like sazón 🔥) */
+  text-transform: uppercase; /* ALL CAPS */
+  margin: 20px 0; /* Spacing above/below */
+  border-top: 2px dashed #ccc; /* Decorative line */
+  border-bottom: 2px dashed #ccc;
+  padding: 10px 0;
+}
