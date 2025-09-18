@@ -1,192 +1,212 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CocinaLatina</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CocinaLatina</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
 
-<body>
-  <!-- Language switcher (only changes headings/labels/menus) -->
-  <div class="lang-switch">
-    <label for="lang-switch" aria-label="Language">🌐</label>
-    <select id="lang-switch">
-      <option value="es">Español</option>
-      <option value="en">English</option>
-    </select>
-  </div>
+  <body>
+    <!-- Language switcher (only changes headings/labels/menus) -->
+    <div class="lang-switch">
+      <label for="lang-switch" aria-label="Language">🌐</label>
+      <select id="lang-switch">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
+    </div>
 
-  <!-- MAIN -->
-  <main>
-    <h1 data-i18n="titleMain">Cocina Latina</h1>
+    <!-- MAIN -->
+    <main>
+      <h1 data-i18n="titleMain">Cocina Latina</h1>
 
-    <p class="lead" data-i18n="welcome">
-      <em>¡Bienvenidos!</em> Explore recetas Latinas deliciosas.
-    </p>
-
-    <h2 class="fancy-title" data-i18n="banner">¡COCINA LATINA!</h2>
-
-    <h2 data-i18n="introHeading">Introduciendo el <em>Sazón Latino</em></h2>
-    <!-- YOUR ORIGINAL PARAGRAPH (unchanged) -->
-    <p>
-      El Sazon latino es <em>Rico!</em> No importa de donde vienes, <br />
-      nosotros los latinos Sabemos <strong>Cocinar</strong>!
-    </p>
-
-    <h3 data-i18n="listHeading">Lista de Nacionalidades Latinas del Menú de Hoy</h3>
-    <ul>
-      <li data-i18n="countryCuba">Cuba</li>
-      <li data-i18n="countryBolivia">Bolivia</li>
-      <li data-i18n="countryVenezuela">Venezuela</li>
-      <li data-i18n="countryMexico">México</li>
-    </ul>
-
-    <!-- CUBA -->
-    <section id="cuba">
-      <h2 class="country-title" data-i18n="countryTitleCuba">🇨🇺 Cuba</h2>
-      <hr />
-      <h3><em data-i18n="dishCuba">Congrí Cubano</em></h3>
-      <img
-        src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/congri-cubano.jpg"
-        width="300"
-        alt="Congri Cubano"
-        data-i18n-alt="congriAlt"
-      />
-      <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
-      <ol>
-        <li>2 tazas Arroz blanco grano largo</li>
-        <li>1 taza Frijoles colorados</li>
-        <li>4 Dientes de ajo machacado</li>
-        <li>1 Cebolla mediana y picada en cubitos</li>
-        <li>1/2 Pimiento rojo o verde También, picado en cubitos</li>
-        <li>1/2 cucharada Orégano molido</li>
-        <li>1 trozo tocino cortado en tiritas</li>
-        <li>1 trozo chorizo picado en cubos</li>
-        <li>3 cucharadas aceite vegetal Igualmente, puede usar de oliva</li>
-        <li>Sal al gusto</li>
-      </ol>
-      <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-      <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-      <p>
-        Calienta el aceite de oliva en una sartén grande y sofríe la cebolla y el ajo hasta que estén dorados.
-        Agrega los frijoles negros con su líquido y el arroz, removiendo bien. Incorpora el caldo de pollo y lleva
-        a ebullición, luego reduce el fuego y cocina a fuego lento hasta que el arroz esté tierno. Sirve caliente,
-        acompañado de una ensalada fresca o como guarnición de carnes a la parrilla.
+      <p class="lead" data-i18n="welcome">
+        <em>¡Bienvenidos!</em> Explore recetas Latinas deliciosas.
       </p>
-    </section>
 
-    <!-- MÉXICO -->
-    <section id="mexico">
-      <h2 class="country-title" data-i18n="countryTitleMexico">🇲🇽 México</h2>
-      <hr />
-      <h3><em data-i18n="dishMexico">Flautas Mexicanas</em></h3>
-      <img
-        src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/flautas-mexicanas.jpg"
-        width="300"
-        alt="Flautas Mexicanas"
-        data-i18n-alt="flautasAlt"
-      />
-      <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
-      <ol>
-        <li>2 tazas de pechuga de pollo cocida y deshebrada</li>
-        <li>1 taza de jitomate picado</li>
-        <li>0.5 cebolla picada</li>
-        <li>2 dientes de ajo picado</li>
-        <li>1 cucharada de comino en polvo</li>
-        <li>2 cucharadas de aceite de oliva</li>
-        <li>12 tortillas</li>
-        <li>Aceite para freír</li>
-        <li>0.5 taza de crema</li>
-        <li>2 tazas de lechuga rebanada finamente</li>
-        <li>1 taza de salsa roja</li>
-      </ol>
-      <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-      <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
+      <h2 class="fancy-title" data-i18n="banner">¡COCINA LATINA!</h2>
+
+      <h2 data-i18n="introHeading">Introduciendo el <em>Sazón Latino</em></h2>
+      <!-- YOUR ORIGINAL PARAGRAPH (unchanged) -->
       <p>
-        Se rellena la mitad de las tortillas con la barbacoa y la otra mitad con el pollo, apretando bien los taquitos
-        y se fríen en aceite muy caliente hasta que estén doraditos; se escurren sobre papel absorbente y se sirven
-        bañados, la mitad con una salsa y la otra mitad con la otra. Se añade la crema y se espolvorean con el queso.
+        El Sazon latino es <em>Rico!</em> No importa de donde vienes, <br />
+        nosotros los latinos Sabemos <strong>Cocinar</strong>!
       </p>
-    </section>
 
-    <!-- VENEZUELA -->
-    <section id="venezuela">
-      <h2 class="country-title" data-i18n="countryTitleVenezuela">🇻🇪 Venezuela</h2>
-      <hr />
-      <h3><em data-i18n="dishVenezuela">Arepa Venezolana</em></h3>
-      <img
-        src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/arepa-venezolana.jpg"
-        width="300"
-        alt="Arepa Venezolana"
-        data-i18n-alt="arepaAlt"
-      />
-      <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
-      <ol>
-        <li>800 gramos de harina de maíz</li>
-        <li>500 mililitros de agua</li>
-        <li>1 cucharadita de sal</li>
-        <li>1 cucharadita de aceite</li>
-        <li>queso en lonchas</li>
-      </ol>
-      <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-      <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-      <p>
-        En un recipiente colocar el agua junto con la sal y el aceite de oliva. Mezclar e ir agregando la harina de a
-        poco mientras se continúa removiendo. Una vez incorporada toda la masa comenzar a mezclar con las manos
-        mientras la harina va absorbiendo el líquido. Si es necesario agregar un poco más de harina y la textura
-        final tiene que ser parecida a un puré de papa moldeable. Cuando se logre la consistencia deseada dejar en
-        reposo por 10 minutos. Pasado el tiempo, con la ayuda de las manos agarrar bolas de la masa para comenzar a
-        darles forma redondeada y luego plana. Repetir este proceso con toda la masa. Calentar una sartén con un poco
-        de aceite en la base y cuando esté caliente colocar de a una o dos las arepas. Cocinar a fuego medio por 5-7
-        minutos. Pasado el tiempo darlas vuelta y cocinar por 10 minutos más. Luego repetir el proceso de cocción con
-        toda la masa. Ya estarán listas para rellenar y comer.
-      </p>
-    </section>
+      <h3 data-i18n="listHeading">
+        Lista de Nacionalidades Latinas del Menú de Hoy
+      </h3>
+      <ul>
+        <li data-i18n="countryCuba">Cuba</li>
+        <li data-i18n="countryBolivia">Bolivia</li>
+        <li data-i18n="countryVenezuela">Venezuela</li>
+        <li data-i18n="countryMexico">México</li>
+      </ul>
 
-    <!-- BOLIVIA -->
-    <section id="bolivia">
-      <h2 class="country-title" data-i18n="countryTitleBolivia">🇧🇴 Bolivia</h2>
-      <hr />
-      <h3><em data-i18n="dishBolivia">Pique Macho Boliviano</em></h3>
-      <img
-        src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/pique-macho-Boliviano.jpg"
-        width="300"
-        alt="Pique Macho Boliviano"
-        data-i18n-alt="piqueAlt"
-      />
-      <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
-      <ol>
-        <li>1 kg Carne de ternera</li>
-        <li>500 gr Salchichas en rodajas</li>
-        <li>6 Patatas Medianas cortadas como patatas fritas</li>
-        <li>3 cda Aceite vegetal</li>
-        <li>3 Cebollas Grandes picadas</li>
-        <li>2 Tomates cortados en cubitos</li>
-        <li>2 Dientes de ajo picados</li>
-        <li>10 gr Comino</li>
-        <li>Aceite</li>
-        <li>Sal a gusto</li>
-        <li>Pimienta negra molida</li>
-        <li>4 Huevos duros</li>
-      </ol>
-      <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-      <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-      <p>
-        Empieza pelando las papas. Después de cortarlas, es bueno ponerlas en agua para que no se oxiden. Sécalas bien
-        antes de freirlas. Calienta una buena cantidad de aceite en una olla para freír, si tienes un termómetro, debe
-        llegar a 160C. Las papas se cocinan o fríen 2 veces. La primera es para cocinar las papas y la segunta para
-        darle el crujiente que las caracteriza. Después de la primera fritada, empieza a cocinar el chorizo y las
-        salchichas en un sartén con un poco de aceite. Una vez cocinado, reserva en un plato. Usa el mismo sartén para
-        sellar y cocinar la carne. No te olvides de sazonar con sal y pimienta. Una vez todo está cocinado, mezlca el
-        chorizo, las salchichas, la carne; añade las papas fritas y mezcla. Coloca esta mezcla en un plato para servir
-        grande, y termina el plato añadiendo las cebollas, tomates, huevos, y ají.
-      </p>
-    </section>
-  </main>
+      <!-- CUBA -->
+      <section id="cuba">
+        <h2 class="country-title" data-i18n="countryTitleCuba">🇨🇺 Cuba</h2>
+        <hr />
+        <h3><em data-i18n="dishCuba">Congrí Cubano</em></h3>
+        <img
+          src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/congri-cubano.jpg"
+          width="300"
+          alt="Congri Cubano"
+          data-i18n-alt="congriAlt"
+        />
+        <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
+        <ol>
+          <li>2 tazas Arroz blanco grano largo</li>
+          <li>1 taza Frijoles colorados</li>
+          <li>4 Dientes de ajo machacado</li>
+          <li>1 Cebolla mediana y picada en cubitos</li>
+          <li>1/2 Pimiento rojo o verde También, picado en cubitos</li>
+          <li>1/2 cucharada Orégano molido</li>
+          <li>1 trozo tocino cortado en tiritas</li>
+          <li>1 trozo chorizo picado en cubos</li>
+          <li>3 cucharadas aceite vegetal Igualmente, puede usar de oliva</li>
+          <li>Sal al gusto</li>
+        </ol>
+        <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
+        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
+        <p>
+          Calienta el aceite de oliva en una sartén grande y sofríe la cebolla y
+          el ajo hasta que estén dorados. Agrega los frijoles negros con su
+          líquido y el arroz, removiendo bien. Incorpora el caldo de pollo y
+          lleva a ebullición, luego reduce el fuego y cocina a fuego lento hasta
+          que el arroz esté tierno. Sirve caliente, acompañado de una ensalada
+          fresca o como guarnición de carnes a la parrilla.
+        </p>
+      </section>
 
-  <!-- FOOTER -->
-  <footer>&copy; <strong>WebDev2025</strong>. All rights reserved.</footer>
-</body>
+      <!-- MÉXICO -->
+      <section id="mexico">
+        <h2 class="country-title" data-i18n="countryTitleMexico">🇲🇽 México</h2>
+        <hr />
+        <h3><em data-i18n="dishMexico">Flautas Mexicanas</em></h3>
+        <img
+          src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/flautas-mexicanas.jpg"
+          width="300"
+          alt="Flautas Mexicanas"
+          data-i18n-alt="flautasAlt"
+        />
+        <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
+        <ol>
+          <li>2 tazas de pechuga de pollo cocida y deshebrada</li>
+          <li>1 taza de jitomate picado</li>
+          <li>0.5 cebolla picada</li>
+          <li>2 dientes de ajo picado</li>
+          <li>1 cucharada de comino en polvo</li>
+          <li>2 cucharadas de aceite de oliva</li>
+          <li>12 tortillas</li>
+          <li>Aceite para freír</li>
+          <li>0.5 taza de crema</li>
+          <li>2 tazas de lechuga rebanada finamente</li>
+          <li>1 taza de salsa roja</li>
+        </ol>
+        <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
+        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
+        <p>
+          Se rellena la mitad de las tortillas con la barbacoa y la otra mitad
+          con el pollo, apretando bien los taquitos y se fríen en aceite muy
+          caliente hasta que estén doraditos; se escurren sobre papel absorbente
+          y se sirven bañados, la mitad con una salsa y la otra mitad con la
+          otra. Se añade la crema y se espolvorean con el queso.
+        </p>
+      </section>
+
+      <!-- VENEZUELA -->
+      <section id="venezuela">
+        <h2 class="country-title" data-i18n="countryTitleVenezuela">
+          🇻🇪 Venezuela
+        </h2>
+        <hr />
+        <h3><em data-i18n="dishVenezuela">Arepa Venezolana</em></h3>
+        <img
+          src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/arepa-venezolana.jpg"
+          width="300"
+          alt="Arepa Venezolana"
+          data-i18n-alt="arepaAlt"
+        />
+        <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
+        <ol>
+          <li>800 gramos de harina de maíz</li>
+          <li>500 mililitros de agua</li>
+          <li>1 cucharadita de sal</li>
+          <li>1 cucharadita de aceite</li>
+          <li>queso en lonchas</li>
+        </ol>
+        <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
+        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
+        <p>
+          En un recipiente colocar el agua junto con la sal y el aceite de
+          oliva. Mezclar e ir agregando la harina de a poco mientras se continúa
+          removiendo. Una vez incorporada toda la masa comenzar a mezclar con
+          las manos mientras la harina va absorbiendo el líquido. Si es
+          necesario agregar un poco más de harina y la textura final tiene que
+          ser parecida a un puré de papa moldeable. Cuando se logre la
+          consistencia deseada dejar en reposo por 10 minutos. Pasado el tiempo,
+          con la ayuda de las manos agarrar bolas de la masa para comenzar a
+          darles forma redondeada y luego plana. Repetir este proceso con toda
+          la masa. Calentar una sartén con un poco de aceite en la base y cuando
+          esté caliente colocar de a una o dos las arepas. Cocinar a fuego medio
+          por 5-7 minutos. Pasado el tiempo darlas vuelta y cocinar por 10
+          minutos más. Luego repetir el proceso de cocción con toda la masa. Ya
+          estarán listas para rellenar y comer.
+        </p>
+      </section>
+
+      <!-- BOLIVIA -->
+      <section id="bolivia">
+        <h2 class="country-title" data-i18n="countryTitleBolivia">
+          🇧🇴 Bolivia
+        </h2>
+        <hr />
+        <h3><em data-i18n="dishBolivia">Pique Macho Boliviano</em></h3>
+        <img
+          src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/pique-macho-Boliviano.jpg"
+          width="300"
+          alt="Pique Macho Boliviano"
+          data-i18n-alt="piqueAlt"
+        />
+        <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
+        <ol>
+          <li>1 kg Carne de ternera</li>
+          <li>500 gr Salchichas en rodajas</li>
+          <li>6 Patatas Medianas cortadas como patatas fritas</li>
+          <li>3 cda Aceite vegetal</li>
+          <li>3 Cebollas Grandes picadas</li>
+          <li>2 Tomates cortados en cubitos</li>
+          <li>2 Dientes de ajo picados</li>
+          <li>10 gr Comino</li>
+          <li>Aceite</li>
+          <li>Sal a gusto</li>
+          <li>Pimienta negra molida</li>
+          <li>4 Huevos duros</li>
+        </ol>
+        <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
+        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
+        <p>
+          Empieza pelando las papas. Después de cortarlas, es bueno ponerlas en
+          agua para que no se oxiden. Sécalas bien antes de freirlas. Calienta
+          una buena cantidad de aceite en una olla para freír, si tienes un
+          termómetro, debe llegar a 160C. Las papas se cocinan o fríen 2 veces.
+          La primera es para cocinar las papas y la segunta para darle el
+          crujiente que las caracteriza. Después de la primera fritada, empieza
+          a cocinar el chorizo y las salchichas en un sartén con un poco de
+          aceite. Una vez cocinado, reserva en un plato. Usa el mismo sartén
+          para sellar y cocinar la carne. No te olvides de sazonar con sal y
+          pimienta. Una vez todo está cocinado, mezlca el chorizo, las
+          salchichas, la carne; añade las papas fritas y mezcla. Coloca esta
+          mezcla en un plato para servir grande, y termina el plato añadiendo
+          las cebollas, tomates, huevos, y ají.
+        </p>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>&copy; <strong>WebDev2025</strong>. All rights reserved.</footer>
+  </body>
 </html>
