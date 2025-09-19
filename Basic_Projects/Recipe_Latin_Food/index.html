@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <!-- Language switcher (only changes headings/labels/menus) -->
+    <!-- Language Switch -->
     <div class="lang-switch">
       <label for="lang-switch" aria-label="Language">🌐</label>
       <select id="lang-switch">
@@ -18,20 +18,16 @@
       </select>
     </div>
 
-    <!-- MAIN -->
     <main>
-      <h1 data-i18n="titleMain">Cocina Latina</h1>
-
+      <!-- Intro -->
+      <h1 class="fancy-title" data-i18n="titleMain">Cocina Latina</h1>
       <p class="lead" data-i18n="welcome">
         <em>¡Bienvenidos!</em> Explore recetas Latinas deliciosas.
       </p>
 
-      <h2 class="fancy-title" data-i18n="banner">¡COCINA LATINA!</h2>
-
       <h2 data-i18n="introHeading">Introduciendo el <em>Sazón Latino</em></h2>
-      <!-- YOUR ORIGINAL PARAGRAPH (unchanged) -->
-      <p>
-        El Sazon latino es <em>Rico!</em> No importa de donde vienes, <br />
+      <p data-i18n="introText">
+        El Sazón latino es <em>¡Rico!</em> No importa de donde vienes, <br />
         nosotros los latinos Sabemos <strong>Cocinar</strong>!
       </p>
 
@@ -39,10 +35,10 @@
         Lista de Nacionalidades Latinas del Menú de Hoy
       </h3>
       <ul>
-        <li data-i18n="countryCuba">Cuba</li>
-        <li data-i18n="countryBolivia">Bolivia</li>
-        <li data-i18n="countryVenezuela">Venezuela</li>
-        <li data-i18n="countryMexico">México</li>
+        <li data-i18n="countryCuba">🇨🇺 Cuba</li>
+        <li data-i18n="countryMexico">🇲🇽 México</li>
+        <li data-i18n="countryVenezuela">🇻🇪 Venezuela</li>
+        <li data-i18n="countryBolivia">🇧🇴 Bolivia</li>
       </ul>
 
       <!-- CUBA -->
@@ -54,24 +50,26 @@
           src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/congri-cubano.jpg"
           width="300"
           alt="Congri Cubano"
-          data-i18n-alt="congriAlt"
         />
+
         <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
         <ol>
-          <li>2 tazas Arroz blanco grano largo</li>
-          <li>1 taza Frijoles colorados</li>
-          <li>4 Dientes de ajo machacado</li>
-          <li>1 Cebolla mediana y picada en cubitos</li>
-          <li>1/2 Pimiento rojo o verde También, picado en cubitos</li>
-          <li>1/2 cucharada Orégano molido</li>
-          <li>1 trozo tocino cortado en tiritas</li>
-          <li>1 trozo chorizo picado en cubos</li>
-          <li>3 cucharadas aceite vegetal Igualmente, puede usar de oliva</li>
-          <li>Sal al gusto</li>
+          <li data-i18n="cubaIng1">2 tazas Arroz blanco grano largo</li>
+          <li data-i18n="cubaIng2">1 taza Frijoles colorados</li>
+          <li data-i18n="cubaIng3">4 Dientes de ajo machacado</li>
+          <li data-i18n="cubaIng4">1 Cebolla mediana y picada en cubitos</li>
+          <li data-i18n="cubaIng5">
+            1/2 Pimiento rojo o verde picado en cubitos
+          </li>
+          <li data-i18n="cubaIng6">1/2 cucharada Orégano molido</li>
+          <li data-i18n="cubaIng7">1 trozo tocino cortado en tiritas</li>
+          <li data-i18n="cubaIng8">1 trozo chorizo picado en cubos</li>
+          <li data-i18n="cubaIng9">3 cucharadas aceite vegetal o de oliva</li>
+          <li data-i18n="cubaIng10">Sal al gusto</li>
         </ol>
+
         <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-        <p>
+        <p data-i18n="cubaInstr">
           Calienta el aceite de oliva en una sartén grande y sofríe la cebolla y
           el ajo hasta que estén dorados. Agrega los frijoles negros con su
           líquido y el arroz, removiendo bien. Incorpora el caldo de pollo y
@@ -81,7 +79,7 @@
         </p>
       </section>
 
-      <!-- MÉXICO -->
+      <!-- MEXICO -->
       <section id="mexico">
         <h2 class="country-title" data-i18n="countryTitleMexico">🇲🇽 México</h2>
         <hr />
@@ -90,27 +88,29 @@
           src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/flautas-mexicanas.jpg"
           width="300"
           alt="Flautas Mexicanas"
-          data-i18n-alt="flautasAlt"
         />
+
         <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
         <ol>
-          <li>2 tazas de pechuga de pollo cocida y deshebrada</li>
-          <li>1 taza de jitomate picado</li>
-          <li>0.5 cebolla picada</li>
-          <li>2 dientes de ajo picado</li>
-          <li>1 cucharada de comino en polvo</li>
-          <li>2 cucharadas de aceite de oliva</li>
-          <li>12 tortillas</li>
-          <li>Aceite para freír</li>
-          <li>0.5 taza de crema</li>
-          <li>2 tazas de lechuga rebanada finamente</li>
-          <li>1 taza de salsa roja</li>
+          <li data-i18n="mexIng1">
+            2 tazas de pechuga de pollo cocida y deshebrada
+          </li>
+          <li data-i18n="mexIng2">1 taza de jitomate picado</li>
+          <li data-i18n="mexIng3">0.5 cebolla picada</li>
+          <li data-i18n="mexIng4">2 dientes de ajo picado</li>
+          <li data-i18n="mexIng5">1 cucharada de comino en polvo</li>
+          <li data-i18n="mexIng6">2 cucharadas de aceite de oliva</li>
+          <li data-i18n="mexIng7">12 tortillas</li>
+          <li data-i18n="mexIng8">Aceite para freír</li>
+          <li data-i18n="mexIng9">0.5 taza de crema</li>
+          <li data-i18n="mexIng10">2 tazas de lechuga rebanada finamente</li>
+          <li data-i18n="mexIng11">1 taza de salsa roja</li>
         </ol>
+
         <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-        <p>
+        <p data-i18n="mexInstr">
           Se rellena la mitad de las tortillas con la barbacoa y la otra mitad
-          con el pollo, apretando bien los taquitos y se fríen en aceite muy
+          con el pollo, apretando bien los taquitos. Se fríen en aceite muy
           caliente hasta que estén doraditos; se escurren sobre papel absorbente
           y se sirven bañados, la mitad con una salsa y la otra mitad con la
           otra. Se añade la crema y se espolvorean con el queso.
@@ -128,33 +128,28 @@
           src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/arepa-venezolana.jpg"
           width="300"
           alt="Arepa Venezolana"
-          data-i18n-alt="arepaAlt"
         />
+
         <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
         <ol>
-          <li>800 gramos de harina de maíz</li>
-          <li>500 mililitros de agua</li>
-          <li>1 cucharadita de sal</li>
-          <li>1 cucharadita de aceite</li>
-          <li>queso en lonchas</li>
+          <li data-i18n="venIng1">800 gramos de harina de maíz</li>
+          <li data-i18n="venIng2">500 mililitros de agua</li>
+          <li data-i18n="venIng3">1 cucharadita de sal</li>
+          <li data-i18n="venIng4">1 cucharadita de aceite</li>
+          <li data-i18n="venIng5">Queso en lonchas</li>
         </ol>
+
         <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-        <p>
+        <p data-i18n="venInstr">
           En un recipiente colocar el agua junto con la sal y el aceite de
           oliva. Mezclar e ir agregando la harina de a poco mientras se continúa
           removiendo. Una vez incorporada toda la masa comenzar a mezclar con
           las manos mientras la harina va absorbiendo el líquido. Si es
-          necesario agregar un poco más de harina y la textura final tiene que
-          ser parecida a un puré de papa moldeable. Cuando se logre la
-          consistencia deseada dejar en reposo por 10 minutos. Pasado el tiempo,
-          con la ayuda de las manos agarrar bolas de la masa para comenzar a
-          darles forma redondeada y luego plana. Repetir este proceso con toda
-          la masa. Calentar una sartén con un poco de aceite en la base y cuando
-          esté caliente colocar de a una o dos las arepas. Cocinar a fuego medio
-          por 5-7 minutos. Pasado el tiempo darlas vuelta y cocinar por 10
-          minutos más. Luego repetir el proceso de cocción con toda la masa. Ya
-          estarán listas para rellenar y comer.
+          necesario, agregar un poco más de harina hasta lograr una textura
+          parecida a un puré de papa moldeable. Dejar reposar 10 minutos. Formar
+          bolas, aplanar y cocinar en sartén con un poco de aceite por 5–7
+          minutos; dar vuelta y cocinar 10 minutos más. Repetir con toda la
+          masa. Rellenar y servir.
         </p>
       </section>
 
@@ -169,44 +164,42 @@
           src="https://imgiu.com/uploads/anon_385eabdd5a01c570ff0e7f3e9e5d50f4/R0D4kLVt4q/pique-macho-Boliviano.jpg"
           width="300"
           alt="Pique Macho Boliviano"
-          data-i18n-alt="piqueAlt"
         />
+
         <h4 data-i18n="ingredientsLabel">Ingredientes:</h4>
         <ol>
-          <li>1 kg Carne de ternera</li>
-          <li>500 gr Salchichas en rodajas</li>
-          <li>6 Patatas Medianas cortadas como patatas fritas</li>
-          <li>3 cda Aceite vegetal</li>
-          <li>3 Cebollas Grandes picadas</li>
-          <li>2 Tomates cortados en cubitos</li>
-          <li>2 Dientes de ajo picados</li>
-          <li>10 gr Comino</li>
-          <li>Aceite</li>
-          <li>Sal a gusto</li>
-          <li>Pimienta negra molida</li>
-          <li>4 Huevos duros</li>
+          <li data-i18n="bolIng1">1 kg Carne de ternera</li>
+          <li data-i18n="bolIng2">500 gr Salchichas en rodajas</li>
+          <li data-i18n="bolIng3">
+            6 Papas medianas cortadas como papas fritas
+          </li>
+          <li data-i18n="bolIng4">3 cda Aceite vegetal</li>
+          <li data-i18n="bolIng5">3 Cebollas grandes picadas</li>
+          <li data-i18n="bolIng6">2 Tomates cortados en cubitos</li>
+          <li data-i18n="bolIng7">2 Dientes de ajo picados</li>
+          <li data-i18n="bolIng8">10 gr Comino</li>
+          <li data-i18n="bolIng9">Aceite</li>
+          <li data-i18n="bolIng10">Sal a gusto</li>
+          <li data-i18n="bolIng11">Pimienta negra molida</li>
+          <li data-i18n="bolIng12">4 Huevos duros</li>
         </ol>
+
         <h4 data-i18n="instructionsLabel">Instrucciones:</h4>
-        <!-- YOUR ORIGINAL INSTRUCTIONS (unchanged) -->
-        <p>
-          Empieza pelando las papas. Después de cortarlas, es bueno ponerlas en
-          agua para que no se oxiden. Sécalas bien antes de freirlas. Calienta
-          una buena cantidad de aceite en una olla para freír, si tienes un
-          termómetro, debe llegar a 160C. Las papas se cocinan o fríen 2 veces.
-          La primera es para cocinar las papas y la segunta para darle el
-          crujiente que las caracteriza. Después de la primera fritada, empieza
-          a cocinar el chorizo y las salchichas en un sartén con un poco de
-          aceite. Una vez cocinado, reserva en un plato. Usa el mismo sartén
-          para sellar y cocinar la carne. No te olvides de sazonar con sal y
-          pimienta. Una vez todo está cocinado, mezlca el chorizo, las
-          salchichas, la carne; añade las papas fritas y mezcla. Coloca esta
-          mezcla en un plato para servir grande, y termina el plato añadiendo
-          las cebollas, tomates, huevos, y ají.
+        <p data-i18n="bolInstr">
+          Empieza pelando las papas. Después de cortarlas, ponlas en agua para
+          que no se oxiden y sécalas bien antes de freírlas. Calienta aceite en
+          una olla a 160°C. Las papas se fríen dos veces: primero para
+          cocinarlas y luego para que queden crujientes. Tras la primera
+          fritura, cocina el chorizo y las salchichas en un sartén con un poco
+          de aceite y reserva. En el mismo sartén, sella y cocina la carne,
+          sazonando con sal y pimienta. Mezcla carne, chorizo, salchichas y
+          papas fritas; sirve y termina con cebolla, tomate, huevos y ají.
         </p>
       </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer>&copy; <strong>WebDev2025</strong>. All rights reserved.</footer>
+    <footer data-i18n="footer">
+      &copy; <strong>WebDev2025</strong>. Todos los derechos reservados.
+    </footer>
   </body>
 </html>
