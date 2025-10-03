@@ -1,0 +1,40 @@
+/* Base */
+body {
+  margin: 0px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  background-color: maroon;
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: White;
+  text-decoration: none;
+  padding: 25px;
+}
+
+main {
+  text-align: center;
+}
+
+#main-title {
+  color: maroon;
+  font-size: 40px;
+  text-shadow: -10px 8px 10px rgb(0, 0, 0);
+}
+
+.main .recipes {
+}
+
+.countries-recipes {
+}

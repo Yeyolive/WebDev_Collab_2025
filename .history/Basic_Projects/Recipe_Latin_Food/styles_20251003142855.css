@@ -1,0 +1,47 @@
+/* Base */
+body {
+  margin: 0px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  background-color: maroon;
+  padding: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: White;
+  text-decoration: none;
+  padding: 25px;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: wavy underline;
+}
+main {
+  text-align: center;
+}
+
+#main-title {
+  display: inline-block;
+  color: maroon;
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-shadow: -10px 5px 5px rgba(128, 0, 0, 0.458);
+  border-bottom: 2px solid maroon;
+}
+
+.main .recipes {
+}
+
+.countries-recipes {
+}

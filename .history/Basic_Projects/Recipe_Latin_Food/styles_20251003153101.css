@@ -102,14 +102,11 @@ main {
   padding-bottom: 80px;
 }
 
-.country-lists {
+div,
+#country-lists {
   margin: 25px;
   display: inline-block;
-  border: 7px solid maroon;
-  border-radius: 5%;
-  padding: 10px;
-  width: 200px;
-  height: 150px;
+  border: 2px solid maroon;
 }
 
 .main .recipes {

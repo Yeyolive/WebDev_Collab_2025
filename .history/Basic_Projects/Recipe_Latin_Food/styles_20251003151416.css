@@ -52,12 +52,7 @@ main {
   text-shadow: -10px 5px 5px rgba(128, 0, 0, 0.458);
 }
 
-#sazon-latino {
-  color: maroon;
-  font-weight: bold;
-}
-
-#li-cuba,
+ul #li-cuba,
 #li-bolivia,
 #li-venezuela,
 #li-mexico {
@@ -68,50 +63,18 @@ main {
   font-size: 25px;
   font-style: italic;
   font-weight: bold;
+
+  /* Positioning */
+  position: relative;
+  padding: 0px 25px;
 }
 
 #li-cuba {
   background-image: url("./images/cuban flag.jpg");
-  background-size: 100px 35px;
+  background-size: 100px 30px;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 80px;
 }
-
-#li-bolivia {
-  background-image: url("./images/Bolivian\ flag.webp");
-  background-size: 100px 35px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 80px;
-}
-
-#li-venezuela {
-  background-image: url("./images/venezuelan flag.jpg");
-  background-size: 100px 35px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 80px;
-}
-
-#li-mexico {
-  background-image: url("./images/mexican\ flag.webp");
-  background-size: 100px 35px;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-bottom: 80px;
-}
-
-.country-lists {
-  margin: 25px;
-  display: inline-block;
-  border: 7px solid maroon;
-  border-radius: 5%;
-  padding: 10px;
-  width: 200px;
-  height: 150px;
-}
-
 .main .recipes {
 }
 
