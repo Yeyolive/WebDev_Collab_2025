@@ -1,0 +1,151 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 25px;
+  border-bottom: 2px solid #e3e3e3;
+  background-color: rgb(192, 192, 192);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0 25px;
+}
+
+nav a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: blue;
+}
+
+header {
+  padding-top: 125px;
+}
+
+header p {
+  margin: 25px auto;
+  width: 50%;
+  font-size: 1.25rem;
+  color: rgb(49, 46, 46);
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+#cta-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #0c6fd9, #0310a3);
+  color: white;
+  padding: 1em 3em;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 25px;
+  font-weight: bold;
+  transition: 150ms ease-in-out;
+}
+
+#cta-button:hover {
+  background: linear-gradient(to right, #0310a3, #0c6fd9);
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.video-player {
+  margin-top: 45px;
+  width: 850px;
+  max-width: 90%;
+  aspect-ratio: 16 / 9;
+  border-radius: 25px;
+}
+
+.products-container {
+  margin-top: 30px;
+}
+
+.item {
+  box-sizing: border-box;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: scroll;
+  display: inline-block;
+  margin: 0 20px;
+  align-content: center;
+  padding: 15px;
+  border-radius: 25px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.item > h2 {
+  margin-bottom: 15px;
+}
+
+.item:first-child {
+  border: 1px solid black;
+}
+.item:nth-child(2),
+.item:nth-child(2) p {
+  background-color: #7932ff;
+  color: white;
+}
+.item:last-child,
+.item:last-child p {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+form {
+  margin-top: 30px;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font: inherit;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font: inherit;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px 20px;
+  width: 400px;
+  font: inherit;
+  border: none;
+  background-color: rgb(147, 161, 204);
+}
