@@ -178,7 +178,7 @@ input[type="password"] {
   margin-top: 10px;
   animation-name: spin;
   animation-duration: 3s;
-  background: linear-gradient(to right, #3647ff, #910bcf);
+  background: #7932ff;
 }
 
 @keyframes spin {

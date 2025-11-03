@@ -174,11 +174,10 @@ input[type="password"] {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.animation-section .animation-container .animation-button {
+.animation-button {
   margin-top: 10px;
   animation-name: spin;
-  animation-duration: 3s;
-  background: linear-gradient(to right, #3647ff, #910bcf);
+  animation-duration: 2s;
 }
 
 @keyframes spin {

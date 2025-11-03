@@ -70,7 +70,6 @@ span {
   border-radius: 30px;
   display: inline-block;
   margin-top: 25px;
-  margin-bottom: 50px;
   font-weight: bold;
   transition: 150ms ease-in-out;
 }
@@ -150,11 +149,6 @@ button {
   transition: 150ms ease-in-out;
 }
 
-button:hover {
-  background: linear-gradient(to right, #0c6fd9, #0310a3);
-  scale: 1.05;
-}
-
 input[type="text"],
 input[type="password"] {
   padding: 10px 20px;
@@ -163,29 +157,4 @@ input[type="password"] {
   border: none;
   background-color: #ebedf5;
   border-radius: 30px;
-}
-
-.box {
-  margin-top: 10px;
-  display: inline-block;
-  padding: 20px;
-  background-color: #f0f0f0;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.animation-section .animation-container .animation-button {
-  margin-top: 10px;
-  animation-name: spin;
-  animation-duration: 3s;
-  background: linear-gradient(to right, #3647ff, #910bcf);
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
