@@ -21,7 +21,7 @@ nav {
   width: 100%; /* makes the Nav bar full screen width */
   max-width: 100%; /* prevents horizontal scrolling */
   padding: 25px;
-  border-bottom: 2px solid #0400ff;
+  border-bottom: 4px solid #0400ff;
   background-color: rgba(216, 213, 213, 0.268);
 }
 
