@@ -146,7 +146,7 @@ button {
   padding: 10px 20px;
   font: inherit;
   font-weight: 700;
-  border: none;
+  border: 1px solid blue;
   border-radius: 30px;
   width: 150px;
   background: linear-gradient(to right, #0310a3, #0c6fd9);

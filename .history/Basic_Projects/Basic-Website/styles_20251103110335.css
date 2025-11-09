@@ -81,7 +81,7 @@ span {
 }
 
 #cta-button:hover {
-  background: linear-gradient(to right, #0310a3, #0c6fd9);
+  background: radial-gradient(to right, #0310a3, #0c6fd9);
   cursor: pointer;
   scale: 1.05;
 }
