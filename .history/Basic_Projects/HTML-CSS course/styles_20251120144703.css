@@ -1,0 +1,28 @@
+.subscribe {
+  border: none;
+  height: 36px;
+  background: rgb(200, 0, 0);
+  color: white;
+}
+
+.join {
+  border: 1px solid blue;
+  height: 36px;
+  width: 80px;
+  color: blue;
+  font-size: 15px;
+  background: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.tweet {
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  width: 70px;
+  background: rgb(29, 161, 242);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}

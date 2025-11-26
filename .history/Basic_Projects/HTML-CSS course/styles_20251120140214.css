@@ -1,0 +1,17 @@
+#subscribe {
+  border: none;
+  height: 35px;
+  background: rgb(200, 0, 0);
+  color: white;
+}
+
+#join {
+  border: 1.5px solid blue;
+  height: 35px;
+  width: 100%;
+  color: blue;
+  background: white;
+}
+
+#tweet {
+}
