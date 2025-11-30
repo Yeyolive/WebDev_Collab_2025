@@ -28,7 +28,7 @@ Open any project folder → open `index.html`.
 - Attribution required  
   Full license in `LICENSE`.
 
-### LICENSE 
+
 WebDev Collab License v1.0  
 Copyright (c) 2025
 
@@ -47,7 +47,6 @@ Attribution Required:
 
 Provided AS-IS, without warranty.
 
-### CONTRIBUTING.md
 
 
 # Contributing
@@ -61,7 +60,7 @@ Provided AS-IS, without warranty.
 Keep code simple and beginner-friendly.  
 All contributions follow the WebDev Collab License.
 
-### CODE_OF_CONDUCT.md
+
 
 
 # Code of Conduct
@@ -141,6 +140,3 @@ Describe your suggestion.
 
 Why is it useful?
 
-### .github/ISSUE_TEMPLATE/config.yml
-
-blank_issues_enabled: false
