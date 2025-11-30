@@ -1,0 +1,126 @@
+/* Base */
+body {
+  margin: 0px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  background-color: maroon;
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: White;
+  text-decoration: none;
+  padding: 25px;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: wavy underline;
+}
+main {
+  text-align: center;
+}
+
+#main-title {
+  display: inline-block;
+  color: maroon;
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-shadow: -10px 5px 5px rgba(128, 0, 0, 0.458);
+  border-bottom: 2px solid maroon;
+}
+
+#fire-gif {
+  vertical-align: auto;
+  margin: -5px 10px;
+  width: 100px;
+  height: 50px;
+}
+
+#main-title:hover {
+  color: gold;
+  text-shadow: -10px 5px 5px rgba(128, 0, 0, 0.458);
+}
+
+#sazon-latino {
+  color: maroon;
+  font-weight: bold;
+}
+
+#li-cuba,
+#li-bolivia,
+#li-venezuela,
+#li-mexico {
+  /* background-coloring and sizes */
+  font-size: 20px;
+  color: maroon;
+  padding: 10px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#li-cuba {
+  background-image: url("./images/cuban flag.jpg");
+  background-size: 100px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+#li-bolivia {
+  background-image: url("./images/Bolivian\ flag.webp");
+  background-size: 100px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+#li-venezuela {
+  background-image: url("./images/venezuelan flag.jpg");
+  background-size: 100px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+#li-mexico {
+  background-image: url("./images/mexican\ flag.webp");
+  background-size: 100px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 80px;
+  margin-top: 20px;
+}
+
+.country-lists {
+  margin: 25px;
+  display: inline-block;
+  border: 7px solid maroon;
+  border-radius: 5%;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.main .recipes {
+}
+
+.countries-recipes {
+}

@@ -1,0 +1,23 @@
+.images {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+}
+.video-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 300px;
+}
+
+.search-bar {
+  font-size: 20px;
+  margin-left: 12px;
+  display: block;
+}

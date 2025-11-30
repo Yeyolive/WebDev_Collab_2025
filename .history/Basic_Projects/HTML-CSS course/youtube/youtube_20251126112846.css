@@ -1,0 +1,33 @@
+.images {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+.video-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 300px;
+}
+
+.video-info {
+  display: inline-block;
+}
+
+.search-bar {
+  font-size: 20px;
+  margin-left: 12px;
+  display: block;
+}
+
+.avatar-picture {
+  display: inline-block;
+  width: 50px;
+}
