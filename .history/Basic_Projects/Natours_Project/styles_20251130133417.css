@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+:root {
+  --primary-color: #18ce14;
+  --secondary-color: #139200;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  background-color: var(--primary-color);
+  color: #333;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+:root {
+  --primary-color: #34e831b5;
+  --secondary-color: #246919b5;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #777;
+  padding: 30px;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--secondary-color)
+    ),
+    url(./images/pexels-hera-ps-2157462344-34992379.jpg);
+  background-size: cover;
+  background-position: center;
+}
