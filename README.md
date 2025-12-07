@@ -1,8 +1,4 @@
-================================================================
-README.md
-================================================================
-
-# WebDev_Collab_2025 ⚡
+# WebDev_Collab_2025 
 
 ![License](https://img.shields.io/badge/License-WebDevCollab-blue)
 
@@ -32,9 +28,7 @@ Open any project folder → open `index.html`.
 - Attribution required  
   Full license in `LICENSE`.
 
-================================================================
-LICENSE
-================================================================
+
 WebDev Collab License v1.0  
 Copyright (c) 2025
 
@@ -53,9 +47,7 @@ Attribution Required:
 
 Provided AS-IS, without warranty.
 
-================================================================
-CONTRIBUTING.md
-================================================================
+
 
 # Contributing
 
@@ -68,9 +60,8 @@ CONTRIBUTING.md
 Keep code simple and beginner-friendly.  
 All contributions follow the WebDev Collab License.
 
-================================================================
-CODE_OF_CONDUCT.md
-================================================================
+
+
 
 # Code of Conduct
 
@@ -78,9 +69,8 @@ Be kind, respectful, and helpful.
 Harassment or hate speech is not allowed.  
 Report issues via GitHub or contact @Yeyolive.
 
-================================================================
-.github/pull_request_template.md
-================================================================
+### .github/pull_request_template.md
+
 
 ## Summary
 
@@ -102,9 +92,9 @@ How did you test it?
 - [ ] I accept the WebDev Collab License
 - [ ] I will credit the project when showcasing
 
-================================================================
-.github/ISSUE_TEMPLATE/bug_report.md
-================================================================
+
+#### .github/ISSUE_TEMPLATE/bug_report.md
+
 
 ---
 
@@ -129,9 +119,9 @@ Describe the issue.
 
 What should happen?
 
-================================================================
-.github/ISSUE_TEMPLATE/feature_request.md
-================================================================
+
+### .github/ISSUE_TEMPLATE/feature_request.md
+
 
 ---
 
@@ -150,7 +140,3 @@ Describe your suggestion.
 
 Why is it useful?
 
-================================================================
-.github/ISSUE_TEMPLATE/config.yml
-================================================================
-blank_issues_enabled: false
